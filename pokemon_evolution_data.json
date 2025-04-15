@@ -739,26 +739,6 @@
         "next_evolution": null
     },
     {
-        "name": "Growlithe",
-        "image_url": "https://img.pokemondb.net/sprites/black-white/normal/growlithe-hisuian.png",
-        "types": [
-            "Fire",
-            "Rock"
-        ],
-        "previous_evolution": null,
-        "next_evolution": "Arcanine"
-    },
-    {
-        "name": "Arcanine",
-        "image_url": "https://img.pokemondb.net/sprites/black-white/normal/arcanine-hisuian.png",
-        "types": [
-            "Fire",
-            "Rock"
-        ],
-        "previous_evolution": "Growlithe",
-        "next_evolution": null
-    },
-    {
         "name": "Poliwag",
         "image_url": "https://img.pokemondb.net/sprites/black-white/normal/poliwag.png",
         "types": [
@@ -1281,26 +1261,6 @@
         "image_url": "https://img.pokemondb.net/sprites/black-white/normal/electrode.png",
         "types": [
             "Electric"
-        ],
-        "previous_evolution": "Voltorb",
-        "next_evolution": null
-    },
-    {
-        "name": "Voltorb",
-        "image_url": "https://img.pokemondb.net/sprites/black-white/normal/voltorb-hisuian.png",
-        "types": [
-            "Electric",
-            "Grass"
-        ],
-        "previous_evolution": null,
-        "next_evolution": "Electrode"
-    },
-    {
-        "name": "Electrode",
-        "image_url": "https://img.pokemondb.net/sprites/black-white/normal/electrode-hisuian.png",
-        "types": [
-            "Electric",
-            "Grass"
         ],
         "previous_evolution": "Voltorb",
         "next_evolution": null
