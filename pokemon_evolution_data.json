@@ -191,26 +191,6 @@
         "next_evolution": null
     },
     {
-        "name": "Rattata",
-        "image_url": "https://img.pokemondb.net/sprites/black-white/normal/rattata-alolan.png",
-        "types": [
-            "Dark",
-            "Normal"
-        ],
-        "previous_evolution": null,
-        "next_evolution": "Raticate"
-    },
-    {
-        "name": "Raticate",
-        "image_url": "https://img.pokemondb.net/sprites/black-white/normal/raticate-alolan.png",
-        "types": [
-            "Dark",
-            "Normal"
-        ],
-        "previous_evolution": "Rattata",
-        "next_evolution": null
-    },
-    {
         "name": "Spearow",
         "image_url": "https://img.pokemondb.net/sprites/black-white/normal/spearow.png",
         "types": [
@@ -276,16 +256,6 @@
         "next_evolution": "Raichu"
     },
     {
-        "name": "Raichu",
-        "image_url": "https://img.pokemondb.net/sprites/black-white/normal/raichu-alolan.png",
-        "types": [
-            "Electric",
-            "Psychic"
-        ],
-        "previous_evolution": "Raichu",
-        "next_evolution": null
-    },
-    {
         "name": "Sandshrew",
         "image_url": "https://img.pokemondb.net/sprites/black-white/normal/sandshrew.png",
         "types": [
@@ -299,26 +269,6 @@
         "image_url": "https://img.pokemondb.net/sprites/black-white/normal/sandslash.png",
         "types": [
             "Ground"
-        ],
-        "previous_evolution": "Sandshrew",
-        "next_evolution": null
-    },
-    {
-        "name": "Sandshrew",
-        "image_url": "https://img.pokemondb.net/sprites/black-white/normal/sandshrew-alolan.png",
-        "types": [
-            "Ice",
-            "Steel"
-        ],
-        "previous_evolution": null,
-        "next_evolution": "Sandslash"
-    },
-    {
-        "name": "Sandslash",
-        "image_url": "https://img.pokemondb.net/sprites/black-white/normal/sandslash-alolan.png",
-        "types": [
-            "Ice",
-            "Steel"
         ],
         "previous_evolution": "Sandshrew",
         "next_evolution": null
@@ -420,25 +370,6 @@
         "image_url": "https://img.pokemondb.net/sprites/black-white/normal/ninetales.png",
         "types": [
             "Fire"
-        ],
-        "previous_evolution": "Vulpix",
-        "next_evolution": null
-    },
-    {
-        "name": "Vulpix",
-        "image_url": "https://img.pokemondb.net/sprites/black-white/normal/vulpix-alolan.png",
-        "types": [
-            "Ice"
-        ],
-        "previous_evolution": null,
-        "next_evolution": "Ninetales"
-    },
-    {
-        "name": "Ninetales",
-        "image_url": "https://img.pokemondb.net/sprites/black-white/normal/ninetales-alolan.png",
-        "types": [
-            "Ice",
-            "Fairy"
         ],
         "previous_evolution": "Vulpix",
         "next_evolution": null
@@ -600,26 +531,7 @@
         "previous_evolution": "Diglett",
         "next_evolution": null
     },
-    {
-        "name": "Diglett",
-        "image_url": "https://img.pokemondb.net/sprites/black-white/normal/diglett-alolan.png",
-        "types": [
-            "Ground",
-            "Steel"
-        ],
-        "previous_evolution": null,
-        "next_evolution": "Dugtrio"
-    },
-    {
-        "name": "Dugtrio",
-        "image_url": "https://img.pokemondb.net/sprites/black-white/normal/dugtrio-alolan.png",
-        "types": [
-            "Ground",
-            "Steel"
-        ],
-        "previous_evolution": "Diglett",
-        "next_evolution": null
-    },
+ 
     {
         "name": "Meowth",
         "image_url": "https://img.pokemondb.net/sprites/black-white/normal/meowth.png",
@@ -637,33 +549,6 @@
         ],
         "previous_evolution": "Meowth",
         "next_evolution": null
-    },
-    {
-        "name": "Meowth",
-        "image_url": "https://img.pokemondb.net/sprites/black-white/normal/meowth-alolan.png",
-        "types": [
-            "Dark"
-        ],
-        "previous_evolution": null,
-        "next_evolution": "Persian"
-    },
-    {
-        "name": "Persian",
-        "image_url": "https://img.pokemondb.net/sprites/black-white/normal/persian-alolan.png",
-        "types": [
-            "Dark"
-        ],
-        "previous_evolution": "Meowth",
-        "next_evolution": null
-    },
-    {
-        "name": "Meowth",
-        "image_url": "https://img.pokemondb.net/sprites/black-white/normal/meowth-galarian.png",
-        "types": [
-            "Steel"
-        ],
-        "previous_evolution": null,
-        "next_evolution": "Perrserker"
     },
     {
         "name": "Perrserker",
@@ -909,36 +794,7 @@
         "previous_evolution": "Graveler",
         "next_evolution": null
     },
-    {
-        "name": "Geodude",
-        "image_url": "https://img.pokemondb.net/sprites/black-white/normal/geodude-alolan.png",
-        "types": [
-            "Rock",
-            "Electric"
-        ],
-        "previous_evolution": null,
-        "next_evolution": "Graveler"
-    },
-    {
-        "name": "Graveler",
-        "image_url": "https://img.pokemondb.net/sprites/black-white/normal/graveler-alolan.png",
-        "types": [
-            "Rock",
-            "Electric"
-        ],
-        "previous_evolution": "Geodude",
-        "next_evolution": "Golem"
-    },
-    {
-        "name": "Golem",
-        "image_url": "https://img.pokemondb.net/sprites/black-white/normal/golem-alolan.png",
-        "types": [
-            "Rock",
-            "Electric"
-        ],
-        "previous_evolution": "Graveler",
-        "next_evolution": null
-    },
+
     {
         "name": "Ponyta",
         "image_url": "https://img.pokemondb.net/sprites/black-white/normal/ponyta.png",
@@ -953,25 +809,6 @@
         "image_url": "https://img.pokemondb.net/sprites/black-white/normal/rapidash.png",
         "types": [
             "Fire"
-        ],
-        "previous_evolution": "Ponyta",
-        "next_evolution": null
-    },
-    {
-        "name": "Ponyta",
-        "image_url": "https://img.pokemondb.net/sprites/black-white/normal/ponyta-galarian.png",
-        "types": [
-            "Psychic"
-        ],
-        "previous_evolution": null,
-        "next_evolution": "Rapidash"
-    },
-    {
-        "name": "Rapidash",
-        "image_url": "https://img.pokemondb.net/sprites/black-white/normal/rapidash-galarian.png",
-        "types": [
-            "Psychic",
-            "Fairy"
         ],
         "previous_evolution": "Ponyta",
         "next_evolution": null
@@ -1001,35 +838,6 @@
         "image_url": "https://img.pokemondb.net/sprites/black-white/normal/slowking.png",
         "types": [
             "Water",
-            "Psychic"
-        ],
-        "previous_evolution": "Slowbro",
-        "next_evolution": null
-    },
-    {
-        "name": "Slowpoke",
-        "image_url": "https://img.pokemondb.net/sprites/black-white/normal/slowpoke-galarian.png",
-        "types": [
-            "Psychic"
-        ],
-        "previous_evolution": null,
-        "next_evolution": "Slowbro"
-    },
-    {
-        "name": "Slowbro",
-        "image_url": "https://img.pokemondb.net/sprites/black-white/normal/slowbro-galarian.png",
-        "types": [
-            "Poison",
-            "Psychic"
-        ],
-        "previous_evolution": "Slowpoke",
-        "next_evolution": "Slowking"
-    },
-    {
-        "name": "Slowking",
-        "image_url": "https://img.pokemondb.net/sprites/black-white/normal/slowking-galarian.png",
-        "types": [
-            "Poison",
             "Psychic"
         ],
         "previous_evolution": "Slowbro",
@@ -1122,26 +930,7 @@
         "previous_evolution": "Grimer",
         "next_evolution": null
     },
-    {
-        "name": "Grimer",
-        "image_url": "https://img.pokemondb.net/sprites/black-white/normal/grimer-alolan.png",
-        "types": [
-            "Poison",
-            "Dark"
-        ],
-        "previous_evolution": null,
-        "next_evolution": "Muk"
-    },
-    {
-        "name": "Muk",
-        "image_url": "https://img.pokemondb.net/sprites/black-white/normal/muk-alolan.png",
-        "types": [
-            "Poison",
-            "Dark"
-        ],
-        "previous_evolution": "Grimer",
-        "next_evolution": null
-    },
+
     {
         "name": "Shellder",
         "image_url": "https://img.pokemondb.net/sprites/black-white/normal/shellder.png",
@@ -1286,16 +1075,6 @@
         "next_evolution": "Exeggutor"
     },
     {
-        "name": "Exeggutor",
-        "image_url": "https://img.pokemondb.net/sprites/black-white/normal/exeggutor-alolan.png",
-        "types": [
-            "Grass",
-            "Dragon"
-        ],
-        "previous_evolution": "Exeggutor",
-        "next_evolution": null
-    },
-    {
         "name": "Cubone",
         "image_url": "https://img.pokemondb.net/sprites/black-white/normal/cubone.png",
         "types": [
@@ -1312,16 +1091,6 @@
         ],
         "previous_evolution": "Cubone",
         "next_evolution": "Marowak"
-    },
-    {
-        "name": "Marowak",
-        "image_url": "https://img.pokemondb.net/sprites/black-white/normal/marowak-alolan.png",
-        "types": [
-            "Fire",
-            "Ghost"
-        ],
-        "previous_evolution": "Marowak",
-        "next_evolution": null
     },
     {
         "name": "Tyrogue",
@@ -1394,16 +1163,6 @@
         ],
         "previous_evolution": "Koffing",
         "next_evolution": "Weezing"
-    },
-    {
-        "name": "Weezing",
-        "image_url": "https://img.pokemondb.net/sprites/black-white/normal/weezing-galarian.png",
-        "types": [
-            "Poison",
-            "Fairy"
-        ],
-        "previous_evolution": "Weezing",
-        "next_evolution": null
     },
     {
         "name": "Rhyhorn",
@@ -1566,16 +1325,6 @@
         "next_evolution": "Mr. Mime"
     },
     {
-        "name": "Mr. Mime",
-        "image_url": "https://img.pokemondb.net/sprites/black-white/normal/mr-mime-galarian.png",
-        "types": [
-            "Ice",
-            "Psychic"
-        ],
-        "previous_evolution": "Mr. Mime",
-        "next_evolution": "Mr. Rime"
-    },
-    {
         "name": "Mr. Rime",
         "image_url": "https://img.pokemondb.net/sprites/black-white/normal/mr-rime.png",
         "types": [
@@ -1584,16 +1333,6 @@
         ],
         "previous_evolution": "Mr. Mime",
         "next_evolution": null
-    },
-    {
-        "name": "Mr. Mime",
-        "image_url": "https://img.pokemondb.net/sprites/black-white/normal/mr-mime-galarian.png",
-        "types": [
-            "Ice",
-            "Psychic"
-        ],
-        "previous_evolution": null,
-        "next_evolution": "Mr. Rime"
     },
     {
         "name": "Mr. Rime",
