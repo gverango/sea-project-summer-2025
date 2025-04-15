@@ -173,6 +173,7 @@ window.onload = function() {
 let drawnCards = [];
 let savedCards = [];
 let selectedCardIndex=null;
+let pullHistory = [];
 
 function renderCards() {
   const container = document.getElementById("card-container");
@@ -188,7 +189,7 @@ function renderCards() {
     }
 
     // Only show name and types if revealed
-    const nameHTML = card.isRevealed ? `<h3>${card.name}</h3>` : "";
+    const nameHTML = card.isRevealed ? `<h3">${card.name}</h3>` : "";
     const typesHTML = card.isRevealed
       ? `<div class="types">
            ${card.types.map(type => `<span class="type-tag">${type}</span>`).join("")}
@@ -203,7 +204,7 @@ function renderCards() {
           <h3>${card.name}</h3>
           <img src="${card.image_url}" alt="${card.name}" />
           <div class="types">
-            ${card.types.map(type => `<span class="type-tag">${type}</span>`).join("")}
+            ${card.types.map(type => `<span class="type-tag type-${type.toLowerCase()}">${type}</span>`).join("")}
           </div>
         </div>
       </div>
@@ -236,9 +237,13 @@ function drawCard() {
   const available = allCards.filter(card => !drawnCards.includes(card));
   const randomCard = available[Math.floor(Math.random() * available.length)];
 
+  
   if (randomCard) {
-    randomCard.isRevealed = false; // start hidden
+    randomCard.isRevealed = false; 
     drawnCards.push(randomCard);
+  if (!pullHistory.includes(randomCard)) { // no duplicates
+    pullHistory.push(randomCard); // adds to history
+  }
     renderCards();
   }
 }
@@ -287,20 +292,136 @@ function renderCardHTML(card) {
         <img src="${card.image_url}" alt="${card.name}">
       </div>
       <div class="types">
-        ${card.types.map(type => `<span class="type-tag">${type}</span>`).join("")}
+        ${card.types.map(type => `<span class="type-tag type-${type.toLowerCase()}">${type}</span>`).join("")}
       </div>
     </div>
   `;
 }
 
-function displaySavedPulls() {
-  const chains = savedCards.filter(card => card.previous_evolution || card.next_evolution);
-  const standalones = savedCards.filter(card => !card.previous_evolution && !card.next_evolution);
+//helper function
+function renderEmptyCardSlot(name) {
+  return `
+    <div class="card empty">
+      <div style="text-align:center; opacity: 0.5; padding: 1rem;">${name} (missing)</div>
+    </div>
+  `;
+}
 
-  // Example DOM rendering (use your existing render structure)
-  const container = document.getElementById('saved-view');
-  container.innerHTML = "<h2>Evolution Chains</h2>";
-  chains.forEach(card => container.innerHTML += renderCardHTML(card));
-  container.innerHTML += "<h2>Standalones</h2>";
-  standalones.forEach(card => container.innerHTML += renderCardHTML(card));
+
+function displayPulls() {
+  // Clear active view
+  document.getElementById("card-container").innerHTML = "";
+  drawnCards = [];
+  selectedCardIndex = null;
+
+  // Hide the main controls (Draw/Remove) if you want:
+  document.querySelector(".footer").style.display = "none";
+
+  // Show the pulls menu
+  document.getElementById("pulls-menu").style.display = "block";
+
+  const sortOption = document.getElementById("pulls-sort").value;
+  const typeView = document.getElementById("pulls-type-view");
+  const chainView = document.getElementById("pulls-chain-view");
+
+  // Filter only revealed cards
+  const revealedCards = pullHistory.filter(card => card.isRevealed);
+  
+
+  if (sortOption === "type") {
+    typeView.innerHTML = "";
+    chainView.style.display = "none";
+    typeView.style.display = "block";
+
+    const typeGroups = {};
+
+    revealedCards.forEach(card => {
+      card.types.forEach(type => {
+        if (!typeGroups[type]) typeGroups[type] = [];
+        typeGroups[type].push(card);
+      });
+    });
+
+    for (const type in typeGroups) {
+      const group = typeGroups[type];
+      const section = document.createElement("div");
+      section.innerHTML = `<h3>${type}</h3>`;
+      const row = document.createElement("div");
+      row.className = "card-row";
+
+      group.forEach(card => {
+        row.innerHTML += renderCardHTML(card);
+      });
+
+      section.appendChild(row);
+      typeView.appendChild(section);
+    }
+
+  } else if (sortOption === "chain") {
+    chainView.innerHTML = "";
+    typeView.style.display = "none";
+    chainView.style.display = "block";
+  
+    const chainsMap = {};
+    const standalone = [];
+  
+    revealedCards.forEach(card => {
+      if (!card.previous_evolution && !card.next_evolution) {
+        standalone.push(card);
+        return;
+      }
+  
+      // Find the root of the chain from allCards
+      let root = allCards.find(p => p.name === card.name);
+      while (root && root.previous_evolution) {
+        root = allCards.find(p => p.name === root.previous_evolution) || root;
+      }
+  
+      if (!chainsMap[root.name]) chainsMap[root.name] = new Set();
+      chainsMap[root.name].add(card.name);
+    });
+  
+    for (const chainRoot in chainsMap) {
+      const revealedNames = chainsMap[chainRoot];
+      const fullChain = [];
+      let curr = allCards.find(p => p.name === chainRoot);
+      const visited = new Set();
+  
+      while (curr && !visited.has(curr.name)) {
+        fullChain.push(curr);
+        visited.add(curr.name);
+        curr = allCards.find(p => p.previous_evolution === curr.name);
+      }
+  
+      const row = document.createElement("div");
+      row.className = "card-row";
+  
+      const label = document.createElement("h3");
+      const isComplete = fullChain.every(card => revealedNames.has(card.name));
+      label.textContent = `${chainRoot} Evolution ${isComplete ? "" : " (Incomplete)"}`;
+      chainView.appendChild(label);
+  
+      fullChain.forEach(card => {
+        if (revealedNames.has(card.name)) {
+          const revealedCard = revealedCards.find(c => c.name === card.name);
+          row.innerHTML += renderCardHTML(revealedCard);
+        } else {
+          row.innerHTML += renderEmptyCardSlot(card.name);
+        }
+      });
+  
+      chainView.appendChild(row);
+    }
+  
+    // Edge case because the data I pulled from should only be pokemon with an evolution
+    if (standalone.length > 0) {
+      chainView.innerHTML += `<h3>Standalone Pokémon</h3>`;
+      const row = document.createElement("div");
+      row.className = "card-row";
+      standalone.forEach(card => {
+        row.innerHTML += renderCardHTML(card);
+      });
+      chainView.appendChild(row);
+    }
+  }
 }

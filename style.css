@@ -1,9 +1,9 @@
-
+/*
 * {
   outline: 1px solid limegreen;
 }
 
-/* for my eyes only */
+/*to see content*/ 
 
 @font-face {
   font-family: 'MyCustomFont';
@@ -19,6 +19,7 @@ body {
   background-color: rgb(37, 34, 51);
   font-family: "MyCustomFont";
 }
+
 
 .main-header {
   /* background-color: rgba(0, 0, 0, 0.3); */
@@ -36,7 +37,7 @@ body {
   text-align: center;
   margin:0;
   color: white;
-  font:1rem;
+  font-size: 1.5rem;
 }
 
 .pokepulls-logo {
@@ -53,21 +54,33 @@ body {
   justify-content: center;
   margin: 0 0;
 }
-
 .card {
-  width: 25%;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  margin: 10px;
-  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  /*padding: 1rem; */
+  /*background-color: #2d2a3a; */
+  color: white;
+  width: 200px;
+  min-height: 280px;
+  margin: 10px; 
+  border-radius: 10px;
+  /*box-shadow: 0 0 15px rgba(0, 255, 200, 0.3);*/
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .card:hover {
-  transform: scale(1.05);
-  box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+  transform: scale(1.01);
+  box-shadow: 0 0 30px 5px rgb(255, 255, 255);
 }
 
+.card img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
 
 .card-content {
   padding: 20px;
@@ -83,10 +96,6 @@ body {
 .card img {
   width: 100%;
   height: auto;
-}
-/* highlight selected card */
-.card.selected {
-  box-shadow:0 0 30px 5px rgb(52, 92, 161)
 }
 
 .footer {
@@ -112,15 +121,61 @@ body {
   flex:1;
   color: white;
   background-color: rgba(0, 0, 0, 0.5);
-  font-size: 1rem;
+  font-family: 'MyCustomFont';
+  font-size: 2rem;
   cursor: pointer;
   margin: 5px;
+}
+/* pulls-menu */
+.card-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.card-row .card {
+  width: calc(100% / 6 - 1rem);
+  min-width: 120px;
+}
+
+.card.empty {
+  background-color: #555;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pokemon-name {
+  font-size:2rem;
+  color: white;
 }
 
 .type-tag {
   display: inline-block;
-  background-color: #8cff00;
   color: white;
   padding: 4px 10px;
-  border-radius: 12px;
+  border-radius: 10px;
+  font-size: 2rem;
+  margin: 2px;
 }
+
+.type-fire    { background-color: #f08030; }
+.type-water   { background-color: #6890f0; }
+.type-grass   { background-color: #78c850; }
+.type-electric{ background-color: #f8d030; }
+.type-ice     { background-color: #98d8d8; }
+.type-fighting{ background-color: #c03028; }
+.type-poison  { background-color: #a040a0; }
+.type-ground  { background-color: #e0c068; }
+.type-flying  { background-color: #a890f0; }
+.type-psychic { background-color: #f85888; }
+.type-bug     { background-color: #a8b820; }
+.type-rock    { background-color: #b8a038; }
+.type-ghost   { background-color: #705898; }
+.type-dragon  { background-color: #7038f8; }
+.type-dark    { background-color: #705848; }
+.type-steel   { background-color: #b8b8d0; }
+.type-fairy   { background-color: #ee99ac; }
+.type-normal  { background-color: #a8a878; }

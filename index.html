@@ -12,21 +12,22 @@
   <body>
     <header class="main-header">
       <img class="pokepulls-logo" src="assets/pokepulls_logo.png" alt="PokePulls Logo">
-      <h5 class="title">Select A Card</h5>
+      <h5 class="title">Draw your cards, Reveal by clicking, See Sorted Pulls</h5>
     </header>
+
 
     <div id="card-container" class="card-container"></div>
 
-    <div class="card ${card.isRevealed ? 'revealed' : ''}">
-      <div class="card-inner">
-        <div class="card-face card-front">
-          <h3>${card.name}</h3>
-          <img src="${card.image_url}" alt="${card.name}">
-          <div class="types">
-            ${card.types.map(type => `<span class="type-tag">${type}</span>`).join("")}
-          </div>
-        </div>
-      </div>
+
+    <div id="pulls-menu" style="display:none; padding: 2rem; color: white;">
+      <label for="pulls-sort">Sort Past Pulls:</label>
+      <select id="pulls-sort" onchange="displayPulls()">
+        <option value="chain">Sort by Evolutionary Chain</option>
+        <option value="type">Sort by Type</option>
+      </select>
+    
+      <div id="pulls-type-view" class="grid-view" style="margin-top: 2rem;"></div>
+      <div id="pulls-chain-view" style="margin-top: 2rem;"></div>
     </div>
     
     
@@ -34,7 +35,7 @@
       <button class="bottom-buttons" onclick="drawCard();">Draw Card</button>
       <button class="bottom-buttons" onclick="removeLastCard();">Remove</button>
 <!--  <button class="bottom-buttons" onclick="saveCard();">Save</button> -->
-      <button class="bottom-buttons" onclick="displaySavedPulls();">See Saved Pulls</button>
+      <button class="bottom-buttons" onclick="displayPulls();">See Sorted Pulls</button>
     </div>
   </body>
 </html>
