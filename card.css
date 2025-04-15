@@ -1,0 +1,44 @@
+/* Outer card container */
+.card-content {
+    position: relative;
+    /* Size of the card (adjust as needed or use responsive units) */
+    width: 200px;
+    height: 300px;
+    perspective: 1000px;
+}
+  .card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.6s ease;
+    transform-style: preserve-3d;
+  }
+  
+  /* Both faces (front and back) */
+  .card-face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    backface-visibility: hidden;           /* hide face when not facing viewer */
+    -webkit-backface-visibility: hidden;   /* Safari/old Chrome support */
+  }
+  
+  /* Front face (initially hidden by being flipped 180deg) */
+  .card-front {
+    transform: rotateY(180deg);
+    /* (Optional: style the front, e.g., background, text styles) */
+  }
+  
+  /* Back face (shows initially) */
+  .card-back {
+    transform: rotateY(0deg);
+    /* (Optional: style the back, e.g., background image for card back) */
+  }
+  
+  /* Flipped state: when card is revealed, flip the inner wrapper 180deg */
+  .card.revealed .card-inner {
+    transform: rotateY(180deg);
+  }
+  

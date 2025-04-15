@@ -1,31 +1,40 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>LA TV Shows | Home</title>
-    <meta name="description" content="A Catalog of Shows Set in Los Angeles" />
+    <title>PokéPulls | Your Daily Gacha</title>
+    <meta name="description" content="A Gacha of Pokemon Dataset" />
+    <link rel="icon" href="assets/pokeball_favicon.webp">
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="card.css" />
     <script type="text/javascript" src="scripts.js"></script>
   </head>
 
   <body>
     <header class="main-header">
-      <h1 class="title">LA TV Shows</h1>
+      <img class="pokepulls-logo" src="assets/pokepulls_logo.png" alt="PokePulls Logo">
+      <h5 class="title">Select A Card</h5>
     </header>
-    <div id="card-container"></div>
-    <div class="card" style="display: none">
-      <div class="card-content">
-        <h2>TV Show Title</h2>
-        <img src="" alt="TV Show Poster" />
-        <ul>
-          <li>Bullet Point 1</li>
-          <li>Bullet Point 2</li>
-          <li>Bullet Point 3</li>
-        </ul>
+
+    <div id="card-container" class="card-container"></div>
+
+    <div class="card ${card.isRevealed ? 'revealed' : ''}">
+      <div class="card-inner">
+        <div class="card-face card-front">
+          <h3>${card.name}</h3>
+          <img src="${card.image_url}" alt="${card.name}">
+          <div class="types">
+            ${card.types.map(type => `<span class="type-tag">${type}</span>`).join("")}
+          </div>
+        </div>
       </div>
     </div>
+    
+    
     <div class="footer">
-      <button onclick="quoteAlert();">Get A Quote!</button>
-      <button onclick="removeLastCard();">Remove A Card!</button>
+      <button class="bottom-buttons" onclick="drawCard();">Draw Card</button>
+      <button class="bottom-buttons" onclick="removeLastCard();">Remove</button>
+<!--  <button class="bottom-buttons" onclick="saveCard();">Save</button> -->
+      <button class="bottom-buttons" onclick="displaySavedPulls();">See Saved Pulls</button>
     </div>
   </body>
 </html>

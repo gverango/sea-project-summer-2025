@@ -1,0 +1,2267 @@
+[
+    {
+        "name": "Bulbasaur",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/bulbasaur.png",
+        "types": [
+            "Grass",
+            "Poison"
+        ],
+        "previous_evolution": null,
+        "next_evolution": "Ivysaur"
+    },
+    {
+        "name": "Ivysaur",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/ivysaur.png",
+        "types": [
+            "Grass",
+            "Poison"
+        ],
+        "previous_evolution": "Bulbasaur",
+        "next_evolution": "Venusaur"
+    },
+    {
+        "name": "Venusaur",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/venusaur.png",
+        "types": [
+            "Grass",
+            "Poison"
+        ],
+        "previous_evolution": "Ivysaur",
+        "next_evolution": null
+    },
+    {
+        "name": "Charmander",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/charmander.png",
+        "types": [
+            "Fire"
+        ],
+        "previous_evolution": null,
+        "next_evolution": "Charmeleon"
+    },
+    {
+        "name": "Charmeleon",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/charmeleon.png",
+        "types": [
+            "Fire"
+        ],
+        "previous_evolution": "Charmander",
+        "next_evolution": "Charizard"
+    },
+    {
+        "name": "Charizard",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/charizard.png",
+        "types": [
+            "Fire",
+            "Flying"
+        ],
+        "previous_evolution": "Charmeleon",
+        "next_evolution": null
+    },
+    {
+        "name": "Squirtle",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/squirtle.png",
+        "types": [
+            "Water"
+        ],
+        "previous_evolution": null,
+        "next_evolution": "Wartortle"
+    },
+    {
+        "name": "Wartortle",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/wartortle.png",
+        "types": [
+            "Water"
+        ],
+        "previous_evolution": "Squirtle",
+        "next_evolution": "Blastoise"
+    },
+    {
+        "name": "Blastoise",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/blastoise.png",
+        "types": [
+            "Water"
+        ],
+        "previous_evolution": "Wartortle",
+        "next_evolution": null
+    },
+    {
+        "name": "Caterpie",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/caterpie.png",
+        "types": [
+            "Bug"
+        ],
+        "previous_evolution": null,
+        "next_evolution": "Metapod"
+    },
+    {
+        "name": "Metapod",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/metapod.png",
+        "types": [
+            "Bug"
+        ],
+        "previous_evolution": "Caterpie",
+        "next_evolution": "Butterfree"
+    },
+    {
+        "name": "Butterfree",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/butterfree.png",
+        "types": [
+            "Bug",
+            "Flying"
+        ],
+        "previous_evolution": "Metapod",
+        "next_evolution": null
+    },
+    {
+        "name": "Weedle",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/weedle.png",
+        "types": [
+            "Bug",
+            "Poison"
+        ],
+        "previous_evolution": null,
+        "next_evolution": "Kakuna"
+    },
+    {
+        "name": "Kakuna",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/kakuna.png",
+        "types": [
+            "Bug",
+            "Poison"
+        ],
+        "previous_evolution": "Weedle",
+        "next_evolution": "Beedrill"
+    },
+    {
+        "name": "Beedrill",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/beedrill.png",
+        "types": [
+            "Bug",
+            "Poison"
+        ],
+        "previous_evolution": "Kakuna",
+        "next_evolution": null
+    },
+    {
+        "name": "Pidgey",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/pidgey.png",
+        "types": [
+            "Normal",
+            "Flying"
+        ],
+        "previous_evolution": null,
+        "next_evolution": "Pidgeotto"
+    },
+    {
+        "name": "Pidgeotto",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/pidgeotto.png",
+        "types": [
+            "Normal",
+            "Flying"
+        ],
+        "previous_evolution": "Pidgey",
+        "next_evolution": "Pidgeot"
+    },
+    {
+        "name": "Pidgeot",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/pidgeot.png",
+        "types": [
+            "Normal",
+            "Flying"
+        ],
+        "previous_evolution": "Pidgeotto",
+        "next_evolution": null
+    },
+    {
+        "name": "Rattata",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/rattata.png",
+        "types": [
+            "Normal"
+        ],
+        "previous_evolution": null,
+        "next_evolution": "Raticate"
+    },
+    {
+        "name": "Raticate",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/raticate.png",
+        "types": [
+            "Normal"
+        ],
+        "previous_evolution": "Rattata",
+        "next_evolution": null
+    },
+    {
+        "name": "Rattata",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/rattata-alolan.png",
+        "types": [
+            "Dark",
+            "Normal"
+        ],
+        "previous_evolution": null,
+        "next_evolution": "Raticate"
+    },
+    {
+        "name": "Raticate",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/raticate-alolan.png",
+        "types": [
+            "Dark",
+            "Normal"
+        ],
+        "previous_evolution": "Rattata",
+        "next_evolution": null
+    },
+    {
+        "name": "Spearow",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/spearow.png",
+        "types": [
+            "Normal",
+            "Flying"
+        ],
+        "previous_evolution": null,
+        "next_evolution": "Fearow"
+    },
+    {
+        "name": "Fearow",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/fearow.png",
+        "types": [
+            "Normal",
+            "Flying"
+        ],
+        "previous_evolution": "Spearow",
+        "next_evolution": null
+    },
+    {
+        "name": "Ekans",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/ekans.png",
+        "types": [
+            "Poison"
+        ],
+        "previous_evolution": null,
+        "next_evolution": "Arbok"
+    },
+    {
+        "name": "Arbok",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/arbok.png",
+        "types": [
+            "Poison"
+        ],
+        "previous_evolution": "Ekans",
+        "next_evolution": null
+    },
+    {
+        "name": "Pichu",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/pichu.png",
+        "types": [
+            "Electric"
+        ],
+        "previous_evolution": null,
+        "next_evolution": "Pikachu"
+    },
+    {
+        "name": "Pikachu",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/pikachu.png",
+        "types": [
+            "Electric"
+        ],
+        "previous_evolution": "Pichu",
+        "next_evolution": "Raichu"
+    },
+    {
+        "name": "Raichu",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/raichu.png",
+        "types": [
+            "Electric"
+        ],
+        "previous_evolution": "Pikachu",
+        "next_evolution": "Raichu"
+    },
+    {
+        "name": "Raichu",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/raichu-alolan.png",
+        "types": [
+            "Electric",
+            "Psychic"
+        ],
+        "previous_evolution": "Raichu",
+        "next_evolution": null
+    },
+    {
+        "name": "Raichu",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/raichu.png",
+        "types": [
+            "Electric"
+        ],
+        "previous_evolution": null,
+        "next_evolution": null
+    },
+    {
+        "name": "Raichu",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/raichu-alolan.png",
+        "types": [
+            "Electric",
+            "Psychic"
+        ],
+        "previous_evolution": null,
+        "next_evolution": null
+    },
+    {
+        "name": "Sandshrew",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/sandshrew.png",
+        "types": [
+            "Ground"
+        ],
+        "previous_evolution": null,
+        "next_evolution": "Sandslash"
+    },
+    {
+        "name": "Sandslash",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/sandslash.png",
+        "types": [
+            "Ground"
+        ],
+        "previous_evolution": "Sandshrew",
+        "next_evolution": null
+    },
+    {
+        "name": "Sandshrew",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/sandshrew-alolan.png",
+        "types": [
+            "Ice",
+            "Steel"
+        ],
+        "previous_evolution": null,
+        "next_evolution": "Sandslash"
+    },
+    {
+        "name": "Sandslash",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/sandslash-alolan.png",
+        "types": [
+            "Ice",
+            "Steel"
+        ],
+        "previous_evolution": "Sandshrew",
+        "next_evolution": null
+    },
+    {
+        "name": "Nidoran\u2640",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/nidoran-f.png",
+        "types": [
+            "Poison"
+        ],
+        "previous_evolution": null,
+        "next_evolution": "Nidorina"
+    },
+    {
+        "name": "Nidorina",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/nidorina.png",
+        "types": [
+            "Poison"
+        ],
+        "previous_evolution": "Nidoran\u2640",
+        "next_evolution": "Nidoqueen"
+    },
+    {
+        "name": "Nidoqueen",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/nidoqueen.png",
+        "types": [
+            "Poison",
+            "Ground"
+        ],
+        "previous_evolution": "Nidorina",
+        "next_evolution": null
+    },
+    {
+        "name": "Nidoran\u2642",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/nidoran-m.png",
+        "types": [
+            "Poison"
+        ],
+        "previous_evolution": null,
+        "next_evolution": "Nidorino"
+    },
+    {
+        "name": "Nidorino",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/nidorino.png",
+        "types": [
+            "Poison"
+        ],
+        "previous_evolution": "Nidoran\u2642",
+        "next_evolution": "Nidoking"
+    },
+    {
+        "name": "Nidoking",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/nidoking.png",
+        "types": [
+            "Poison",
+            "Ground"
+        ],
+        "previous_evolution": "Nidorino",
+        "next_evolution": null
+    },
+    {
+        "name": "Cleffa",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/cleffa.png",
+        "types": [
+            "Fairy"
+        ],
+        "previous_evolution": null,
+        "next_evolution": "Clefairy"
+    },
+    {
+        "name": "Clefairy",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/clefairy.png",
+        "types": [
+            "Fairy"
+        ],
+        "previous_evolution": "Cleffa",
+        "next_evolution": "Clefable"
+    },
+    {
+        "name": "Clefable",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/clefable.png",
+        "types": [
+            "Fairy"
+        ],
+        "previous_evolution": "Clefairy",
+        "next_evolution": null
+    },
+    {
+        "name": "Vulpix",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/vulpix.png",
+        "types": [
+            "Fire"
+        ],
+        "previous_evolution": null,
+        "next_evolution": "Ninetales"
+    },
+    {
+        "name": "Ninetales",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/ninetales.png",
+        "types": [
+            "Fire"
+        ],
+        "previous_evolution": "Vulpix",
+        "next_evolution": null
+    },
+    {
+        "name": "Vulpix",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/vulpix-alolan.png",
+        "types": [
+            "Ice"
+        ],
+        "previous_evolution": null,
+        "next_evolution": "Ninetales"
+    },
+    {
+        "name": "Ninetales",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/ninetales-alolan.png",
+        "types": [
+            "Ice",
+            "Fairy"
+        ],
+        "previous_evolution": "Vulpix",
+        "next_evolution": null
+    },
+    {
+        "name": "Igglybuff",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/igglybuff.png",
+        "types": [
+            "Normal",
+            "Fairy"
+        ],
+        "previous_evolution": null,
+        "next_evolution": "Jigglypuff"
+    },
+    {
+        "name": "Jigglypuff",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/jigglypuff.png",
+        "types": [
+            "Normal",
+            "Fairy"
+        ],
+        "previous_evolution": "Igglybuff",
+        "next_evolution": "Wigglytuff"
+    },
+    {
+        "name": "Wigglytuff",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/wigglytuff.png",
+        "types": [
+            "Normal",
+            "Fairy"
+        ],
+        "previous_evolution": "Jigglypuff",
+        "next_evolution": null
+    },
+    {
+        "name": "Zubat",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/zubat.png",
+        "types": [
+            "Poison",
+            "Flying"
+        ],
+        "previous_evolution": null,
+        "next_evolution": "Golbat"
+    },
+    {
+        "name": "Golbat",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/golbat.png",
+        "types": [
+            "Poison",
+            "Flying"
+        ],
+        "previous_evolution": "Zubat",
+        "next_evolution": "Crobat"
+    },
+    {
+        "name": "Crobat",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/crobat.png",
+        "types": [
+            "Poison",
+            "Flying"
+        ],
+        "previous_evolution": "Golbat",
+        "next_evolution": null
+    },
+    {
+        "name": "Oddish",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/oddish.png",
+        "types": [
+            "Grass",
+            "Poison"
+        ],
+        "previous_evolution": null,
+        "next_evolution": "Gloom"
+    },
+    {
+        "name": "Gloom",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/gloom.png",
+        "types": [
+            "Grass",
+            "Poison"
+        ],
+        "previous_evolution": "Oddish",
+        "next_evolution": "Vileplume"
+    },
+    {
+        "name": "Vileplume",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/vileplume.png",
+        "types": [
+            "Grass",
+            "Poison"
+        ],
+        "previous_evolution": "Gloom",
+        "next_evolution": "Bellossom"
+    },
+    {
+        "name": "Bellossom",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/bellossom.png",
+        "types": [
+            "Grass"
+        ],
+        "previous_evolution": "Vileplume",
+        "next_evolution": null
+    },
+    {
+        "name": "Vileplume",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/vileplume.png",
+        "types": [
+            "Grass",
+            "Poison"
+        ],
+        "previous_evolution": null,
+        "next_evolution": null
+    },
+    {
+        "name": "Bellossom",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/bellossom.png",
+        "types": [
+            "Grass"
+        ],
+        "previous_evolution": null,
+        "next_evolution": null
+    },
+    {
+        "name": "Paras",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/paras.png",
+        "types": [
+            "Bug",
+            "Grass"
+        ],
+        "previous_evolution": null,
+        "next_evolution": "Parasect"
+    },
+    {
+        "name": "Parasect",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/parasect.png",
+        "types": [
+            "Bug",
+            "Grass"
+        ],
+        "previous_evolution": "Paras",
+        "next_evolution": null
+    },
+    {
+        "name": "Venonat",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/venonat.png",
+        "types": [
+            "Bug",
+            "Poison"
+        ],
+        "previous_evolution": null,
+        "next_evolution": "Venomoth"
+    },
+    {
+        "name": "Venomoth",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/venomoth.png",
+        "types": [
+            "Bug",
+            "Poison"
+        ],
+        "previous_evolution": "Venonat",
+        "next_evolution": null
+    },
+    {
+        "name": "Diglett",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/diglett.png",
+        "types": [
+            "Ground"
+        ],
+        "previous_evolution": null,
+        "next_evolution": "Dugtrio"
+    },
+    {
+        "name": "Dugtrio",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/dugtrio.png",
+        "types": [
+            "Ground"
+        ],
+        "previous_evolution": "Diglett",
+        "next_evolution": null
+    },
+    {
+        "name": "Diglett",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/diglett-alolan.png",
+        "types": [
+            "Ground",
+            "Steel"
+        ],
+        "previous_evolution": null,
+        "next_evolution": "Dugtrio"
+    },
+    {
+        "name": "Dugtrio",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/dugtrio-alolan.png",
+        "types": [
+            "Ground",
+            "Steel"
+        ],
+        "previous_evolution": "Diglett",
+        "next_evolution": null
+    },
+    {
+        "name": "Meowth",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/meowth.png",
+        "types": [
+            "Normal"
+        ],
+        "previous_evolution": null,
+        "next_evolution": "Persian"
+    },
+    {
+        "name": "Persian",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/persian.png",
+        "types": [
+            "Normal"
+        ],
+        "previous_evolution": "Meowth",
+        "next_evolution": null
+    },
+    {
+        "name": "Meowth",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/meowth-alolan.png",
+        "types": [
+            "Dark"
+        ],
+        "previous_evolution": null,
+        "next_evolution": "Persian"
+    },
+    {
+        "name": "Persian",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/persian-alolan.png",
+        "types": [
+            "Dark"
+        ],
+        "previous_evolution": "Meowth",
+        "next_evolution": null
+    },
+    {
+        "name": "Meowth",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/meowth-galarian.png",
+        "types": [
+            "Steel"
+        ],
+        "previous_evolution": null,
+        "next_evolution": "Perrserker"
+    },
+    {
+        "name": "Perrserker",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/perrserker.png",
+        "types": [
+            "Steel"
+        ],
+        "previous_evolution": "Meowth",
+        "next_evolution": null
+    },
+    {
+        "name": "Psyduck",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/psyduck.png",
+        "types": [
+            "Water"
+        ],
+        "previous_evolution": null,
+        "next_evolution": "Golduck"
+    },
+    {
+        "name": "Golduck",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/golduck.png",
+        "types": [
+            "Water"
+        ],
+        "previous_evolution": "Psyduck",
+        "next_evolution": null
+    },
+    {
+        "name": "Mankey",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/mankey.png",
+        "types": [
+            "Fighting"
+        ],
+        "previous_evolution": null,
+        "next_evolution": "Primeape"
+    },
+    {
+        "name": "Primeape",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/primeape.png",
+        "types": [
+            "Fighting"
+        ],
+        "previous_evolution": "Mankey",
+        "next_evolution": "Annihilape"
+    },
+    {
+        "name": "Annihilape",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/annihilape.png",
+        "types": [
+            "Fighting",
+            "Ghost"
+        ],
+        "previous_evolution": "Primeape",
+        "next_evolution": null
+    },
+    {
+        "name": "Growlithe",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/growlithe.png",
+        "types": [
+            "Fire"
+        ],
+        "previous_evolution": null,
+        "next_evolution": "Arcanine"
+    },
+    {
+        "name": "Arcanine",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/arcanine.png",
+        "types": [
+            "Fire"
+        ],
+        "previous_evolution": "Growlithe",
+        "next_evolution": null
+    },
+    {
+        "name": "Growlithe",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/growlithe-hisuian.png",
+        "types": [
+            "Fire",
+            "Rock"
+        ],
+        "previous_evolution": null,
+        "next_evolution": "Arcanine"
+    },
+    {
+        "name": "Arcanine",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/arcanine-hisuian.png",
+        "types": [
+            "Fire",
+            "Rock"
+        ],
+        "previous_evolution": "Growlithe",
+        "next_evolution": null
+    },
+    {
+        "name": "Poliwag",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/poliwag.png",
+        "types": [
+            "Water"
+        ],
+        "previous_evolution": null,
+        "next_evolution": "Poliwhirl"
+    },
+    {
+        "name": "Poliwhirl",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/poliwhirl.png",
+        "types": [
+            "Water"
+        ],
+        "previous_evolution": "Poliwag",
+        "next_evolution": "Poliwrath"
+    },
+    {
+        "name": "Poliwrath",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/poliwrath.png",
+        "types": [
+            "Water",
+            "Fighting"
+        ],
+        "previous_evolution": "Poliwhirl",
+        "next_evolution": "Politoed"
+    },
+    {
+        "name": "Politoed",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/politoed.png",
+        "types": [
+            "Water"
+        ],
+        "previous_evolution": "Poliwrath",
+        "next_evolution": null
+    },
+    {
+        "name": "Poliwrath",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/poliwrath.png",
+        "types": [
+            "Water",
+            "Fighting"
+        ],
+        "previous_evolution": null,
+        "next_evolution": null
+    },
+    {
+        "name": "Politoed",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/politoed.png",
+        "types": [
+            "Water"
+        ],
+        "previous_evolution": null,
+        "next_evolution": null
+    },
+    {
+        "name": "Abra",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/abra.png",
+        "types": [
+            "Psychic"
+        ],
+        "previous_evolution": null,
+        "next_evolution": "Kadabra"
+    },
+    {
+        "name": "Kadabra",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/kadabra.png",
+        "types": [
+            "Psychic"
+        ],
+        "previous_evolution": "Abra",
+        "next_evolution": "Alakazam"
+    },
+    {
+        "name": "Alakazam",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/alakazam.png",
+        "types": [
+            "Psychic"
+        ],
+        "previous_evolution": "Kadabra",
+        "next_evolution": null
+    },
+    {
+        "name": "Machop",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/machop.png",
+        "types": [
+            "Fighting"
+        ],
+        "previous_evolution": null,
+        "next_evolution": "Machoke"
+    },
+    {
+        "name": "Machoke",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/machoke.png",
+        "types": [
+            "Fighting"
+        ],
+        "previous_evolution": "Machop",
+        "next_evolution": "Machamp"
+    },
+    {
+        "name": "Machamp",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/machamp.png",
+        "types": [
+            "Fighting"
+        ],
+        "previous_evolution": "Machoke",
+        "next_evolution": null
+    },
+    {
+        "name": "Bellsprout",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/bellsprout.png",
+        "types": [
+            "Grass",
+            "Poison"
+        ],
+        "previous_evolution": null,
+        "next_evolution": "Weepinbell"
+    },
+    {
+        "name": "Weepinbell",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/weepinbell.png",
+        "types": [
+            "Grass",
+            "Poison"
+        ],
+        "previous_evolution": "Bellsprout",
+        "next_evolution": "Victreebel"
+    },
+    {
+        "name": "Victreebel",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/victreebel.png",
+        "types": [
+            "Grass",
+            "Poison"
+        ],
+        "previous_evolution": "Weepinbell",
+        "next_evolution": null
+    },
+    {
+        "name": "Tentacool",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/tentacool.png",
+        "types": [
+            "Water",
+            "Poison"
+        ],
+        "previous_evolution": null,
+        "next_evolution": "Tentacruel"
+    },
+    {
+        "name": "Tentacruel",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/tentacruel.png",
+        "types": [
+            "Water",
+            "Poison"
+        ],
+        "previous_evolution": "Tentacool",
+        "next_evolution": null
+    },
+    {
+        "name": "Geodude",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/geodude.png",
+        "types": [
+            "Rock",
+            "Ground"
+        ],
+        "previous_evolution": null,
+        "next_evolution": "Graveler"
+    },
+    {
+        "name": "Graveler",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/graveler.png",
+        "types": [
+            "Rock",
+            "Ground"
+        ],
+        "previous_evolution": "Geodude",
+        "next_evolution": "Golem"
+    },
+    {
+        "name": "Golem",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/golem.png",
+        "types": [
+            "Rock",
+            "Ground"
+        ],
+        "previous_evolution": "Graveler",
+        "next_evolution": null
+    },
+    {
+        "name": "Geodude",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/geodude-alolan.png",
+        "types": [
+            "Rock",
+            "Electric"
+        ],
+        "previous_evolution": null,
+        "next_evolution": "Graveler"
+    },
+    {
+        "name": "Graveler",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/graveler-alolan.png",
+        "types": [
+            "Rock",
+            "Electric"
+        ],
+        "previous_evolution": "Geodude",
+        "next_evolution": "Golem"
+    },
+    {
+        "name": "Golem",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/golem-alolan.png",
+        "types": [
+            "Rock",
+            "Electric"
+        ],
+        "previous_evolution": "Graveler",
+        "next_evolution": null
+    },
+    {
+        "name": "Ponyta",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/ponyta.png",
+        "types": [
+            "Fire"
+        ],
+        "previous_evolution": null,
+        "next_evolution": "Rapidash"
+    },
+    {
+        "name": "Rapidash",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/rapidash.png",
+        "types": [
+            "Fire"
+        ],
+        "previous_evolution": "Ponyta",
+        "next_evolution": null
+    },
+    {
+        "name": "Ponyta",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/ponyta-galarian.png",
+        "types": [
+            "Psychic"
+        ],
+        "previous_evolution": null,
+        "next_evolution": "Rapidash"
+    },
+    {
+        "name": "Rapidash",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/rapidash-galarian.png",
+        "types": [
+            "Psychic",
+            "Fairy"
+        ],
+        "previous_evolution": "Ponyta",
+        "next_evolution": null
+    },
+    {
+        "name": "Slowpoke",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/slowpoke.png",
+        "types": [
+            "Water",
+            "Psychic"
+        ],
+        "previous_evolution": null,
+        "next_evolution": "Slowbro"
+    },
+    {
+        "name": "Slowbro",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/slowbro.png",
+        "types": [
+            "Water",
+            "Psychic"
+        ],
+        "previous_evolution": "Slowpoke",
+        "next_evolution": "Slowking"
+    },
+    {
+        "name": "Slowking",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/slowking.png",
+        "types": [
+            "Water",
+            "Psychic"
+        ],
+        "previous_evolution": "Slowbro",
+        "next_evolution": null
+    },
+    {
+        "name": "Slowbro",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/slowbro.png",
+        "types": [
+            "Water",
+            "Psychic"
+        ],
+        "previous_evolution": null,
+        "next_evolution": null
+    },
+    {
+        "name": "Slowking",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/slowking.png",
+        "types": [
+            "Water",
+            "Psychic"
+        ],
+        "previous_evolution": null,
+        "next_evolution": null
+    },
+    {
+        "name": "Slowpoke",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/slowpoke-galarian.png",
+        "types": [
+            "Psychic"
+        ],
+        "previous_evolution": null,
+        "next_evolution": "Slowbro"
+    },
+    {
+        "name": "Slowbro",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/slowbro-galarian.png",
+        "types": [
+            "Poison",
+            "Psychic"
+        ],
+        "previous_evolution": "Slowpoke",
+        "next_evolution": "Slowking"
+    },
+    {
+        "name": "Slowking",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/slowking-galarian.png",
+        "types": [
+            "Poison",
+            "Psychic"
+        ],
+        "previous_evolution": "Slowbro",
+        "next_evolution": null
+    },
+    {
+        "name": "Slowbro",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/slowbro-galarian.png",
+        "types": [
+            "Poison",
+            "Psychic"
+        ],
+        "previous_evolution": null,
+        "next_evolution": null
+    },
+    {
+        "name": "Slowking",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/slowking-galarian.png",
+        "types": [
+            "Poison",
+            "Psychic"
+        ],
+        "previous_evolution": null,
+        "next_evolution": null
+    },
+    {
+        "name": "Magnemite",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/magnemite.png",
+        "types": [
+            "Electric",
+            "Steel"
+        ],
+        "previous_evolution": null,
+        "next_evolution": "Magneton"
+    },
+    {
+        "name": "Magneton",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/magneton.png",
+        "types": [
+            "Electric",
+            "Steel"
+        ],
+        "previous_evolution": "Magnemite",
+        "next_evolution": "Magnezone"
+    },
+    {
+        "name": "Magnezone",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/magnezone.png",
+        "types": [
+            "Electric",
+            "Steel"
+        ],
+        "previous_evolution": "Magneton",
+        "next_evolution": null
+    },
+    {
+        "name": "Doduo",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/doduo.png",
+        "types": [
+            "Normal",
+            "Flying"
+        ],
+        "previous_evolution": null,
+        "next_evolution": "Dodrio"
+    },
+    {
+        "name": "Dodrio",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/dodrio.png",
+        "types": [
+            "Normal",
+            "Flying"
+        ],
+        "previous_evolution": "Doduo",
+        "next_evolution": null
+    },
+    {
+        "name": "Seel",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/seel.png",
+        "types": [
+            "Water"
+        ],
+        "previous_evolution": null,
+        "next_evolution": "Dewgong"
+    },
+    {
+        "name": "Dewgong",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/dewgong.png",
+        "types": [
+            "Water",
+            "Ice"
+        ],
+        "previous_evolution": "Seel",
+        "next_evolution": null
+    },
+    {
+        "name": "Grimer",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/grimer.png",
+        "types": [
+            "Poison"
+        ],
+        "previous_evolution": null,
+        "next_evolution": "Muk"
+    },
+    {
+        "name": "Muk",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/muk.png",
+        "types": [
+            "Poison"
+        ],
+        "previous_evolution": "Grimer",
+        "next_evolution": null
+    },
+    {
+        "name": "Grimer",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/grimer-alolan.png",
+        "types": [
+            "Poison",
+            "Dark"
+        ],
+        "previous_evolution": null,
+        "next_evolution": "Muk"
+    },
+    {
+        "name": "Muk",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/muk-alolan.png",
+        "types": [
+            "Poison",
+            "Dark"
+        ],
+        "previous_evolution": "Grimer",
+        "next_evolution": null
+    },
+    {
+        "name": "Shellder",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/shellder.png",
+        "types": [
+            "Water"
+        ],
+        "previous_evolution": null,
+        "next_evolution": "Cloyster"
+    },
+    {
+        "name": "Cloyster",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/cloyster.png",
+        "types": [
+            "Water",
+            "Ice"
+        ],
+        "previous_evolution": "Shellder",
+        "next_evolution": null
+    },
+    {
+        "name": "Gastly",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/gastly.png",
+        "types": [
+            "Ghost",
+            "Poison"
+        ],
+        "previous_evolution": null,
+        "next_evolution": "Haunter"
+    },
+    {
+        "name": "Haunter",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/haunter.png",
+        "types": [
+            "Ghost",
+            "Poison"
+        ],
+        "previous_evolution": "Gastly",
+        "next_evolution": "Gengar"
+    },
+    {
+        "name": "Gengar",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/gengar.png",
+        "types": [
+            "Ghost",
+            "Poison"
+        ],
+        "previous_evolution": "Haunter",
+        "next_evolution": null
+    },
+    {
+        "name": "Onix",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/onix.png",
+        "types": [
+            "Rock",
+            "Ground"
+        ],
+        "previous_evolution": null,
+        "next_evolution": "Steelix"
+    },
+    {
+        "name": "Steelix",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/steelix.png",
+        "types": [
+            "Steel",
+            "Ground"
+        ],
+        "previous_evolution": "Onix",
+        "next_evolution": null
+    },
+    {
+        "name": "Drowzee",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/drowzee.png",
+        "types": [
+            "Psychic"
+        ],
+        "previous_evolution": null,
+        "next_evolution": "Hypno"
+    },
+    {
+        "name": "Hypno",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/hypno.png",
+        "types": [
+            "Psychic"
+        ],
+        "previous_evolution": "Drowzee",
+        "next_evolution": null
+    },
+    {
+        "name": "Krabby",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/krabby.png",
+        "types": [
+            "Water"
+        ],
+        "previous_evolution": null,
+        "next_evolution": "Kingler"
+    },
+    {
+        "name": "Kingler",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/kingler.png",
+        "types": [
+            "Water"
+        ],
+        "previous_evolution": "Krabby",
+        "next_evolution": null
+    },
+    {
+        "name": "Voltorb",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/voltorb.png",
+        "types": [
+            "Electric"
+        ],
+        "previous_evolution": null,
+        "next_evolution": "Electrode"
+    },
+    {
+        "name": "Electrode",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/electrode.png",
+        "types": [
+            "Electric"
+        ],
+        "previous_evolution": "Voltorb",
+        "next_evolution": null
+    },
+    {
+        "name": "Voltorb",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/voltorb-hisuian.png",
+        "types": [
+            "Electric",
+            "Grass"
+        ],
+        "previous_evolution": null,
+        "next_evolution": "Electrode"
+    },
+    {
+        "name": "Electrode",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/electrode-hisuian.png",
+        "types": [
+            "Electric",
+            "Grass"
+        ],
+        "previous_evolution": "Voltorb",
+        "next_evolution": null
+    },
+    {
+        "name": "Exeggcute",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/exeggcute.png",
+        "types": [
+            "Grass",
+            "Psychic"
+        ],
+        "previous_evolution": null,
+        "next_evolution": "Exeggutor"
+    },
+    {
+        "name": "Exeggutor",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/exeggutor.png",
+        "types": [
+            "Grass",
+            "Psychic"
+        ],
+        "previous_evolution": "Exeggcute",
+        "next_evolution": "Exeggutor"
+    },
+    {
+        "name": "Exeggutor",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/exeggutor-alolan.png",
+        "types": [
+            "Grass",
+            "Dragon"
+        ],
+        "previous_evolution": "Exeggutor",
+        "next_evolution": null
+    },
+    {
+        "name": "Exeggutor",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/exeggutor.png",
+        "types": [
+            "Grass",
+            "Psychic"
+        ],
+        "previous_evolution": null,
+        "next_evolution": null
+    },
+    {
+        "name": "Exeggutor",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/exeggutor-alolan.png",
+        "types": [
+            "Grass",
+            "Dragon"
+        ],
+        "previous_evolution": null,
+        "next_evolution": null
+    },
+    {
+        "name": "Cubone",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/cubone.png",
+        "types": [
+            "Ground"
+        ],
+        "previous_evolution": null,
+        "next_evolution": "Marowak"
+    },
+    {
+        "name": "Marowak",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/marowak.png",
+        "types": [
+            "Ground"
+        ],
+        "previous_evolution": "Cubone",
+        "next_evolution": "Marowak"
+    },
+    {
+        "name": "Marowak",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/marowak-alolan.png",
+        "types": [
+            "Fire",
+            "Ghost"
+        ],
+        "previous_evolution": "Marowak",
+        "next_evolution": null
+    },
+    {
+        "name": "Marowak",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/marowak.png",
+        "types": [
+            "Ground"
+        ],
+        "previous_evolution": null,
+        "next_evolution": null
+    },
+    {
+        "name": "Marowak",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/marowak-alolan.png",
+        "types": [
+            "Fire",
+            "Ghost"
+        ],
+        "previous_evolution": null,
+        "next_evolution": null
+    },
+    {
+        "name": "Tyrogue",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/tyrogue.png",
+        "types": [
+            "Fighting"
+        ],
+        "previous_evolution": null,
+        "next_evolution": "Hitmonlee"
+    },
+    {
+        "name": "Hitmonlee",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/hitmonlee.png",
+        "types": [
+            "Fighting"
+        ],
+        "previous_evolution": "Tyrogue",
+        "next_evolution": "Hitmonchan"
+    },
+    {
+        "name": "Hitmonchan",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/hitmonchan.png",
+        "types": [
+            "Fighting"
+        ],
+        "previous_evolution": "Hitmonlee",
+        "next_evolution": "Hitmontop"
+    },
+    {
+        "name": "Hitmontop",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/hitmontop.png",
+        "types": [
+            "Fighting"
+        ],
+        "previous_evolution": "Hitmonchan",
+        "next_evolution": null
+    },
+    {
+        "name": "Hitmonlee",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/hitmonlee.png",
+        "types": [
+            "Fighting"
+        ],
+        "previous_evolution": null,
+        "next_evolution": null
+    },
+    {
+        "name": "Hitmonchan",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/hitmonchan.png",
+        "types": [
+            "Fighting"
+        ],
+        "previous_evolution": null,
+        "next_evolution": null
+    },
+    {
+        "name": "Hitmontop",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/hitmontop.png",
+        "types": [
+            "Fighting"
+        ],
+        "previous_evolution": null,
+        "next_evolution": null
+    },
+    {
+        "name": "Lickitung",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/lickitung.png",
+        "types": [
+            "Normal"
+        ],
+        "previous_evolution": null,
+        "next_evolution": "Lickilicky"
+    },
+    {
+        "name": "Lickilicky",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/lickilicky.png",
+        "types": [
+            "Normal"
+        ],
+        "previous_evolution": "Lickitung",
+        "next_evolution": null
+    },
+    {
+        "name": "Koffing",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/koffing.png",
+        "types": [
+            "Poison"
+        ],
+        "previous_evolution": null,
+        "next_evolution": "Weezing"
+    },
+    {
+        "name": "Weezing",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/weezing.png",
+        "types": [
+            "Poison"
+        ],
+        "previous_evolution": "Koffing",
+        "next_evolution": "Weezing"
+    },
+    {
+        "name": "Weezing",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/weezing-galarian.png",
+        "types": [
+            "Poison",
+            "Fairy"
+        ],
+        "previous_evolution": "Weezing",
+        "next_evolution": null
+    },
+    {
+        "name": "Weezing",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/weezing.png",
+        "types": [
+            "Poison"
+        ],
+        "previous_evolution": null,
+        "next_evolution": null
+    },
+    {
+        "name": "Weezing",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/weezing-galarian.png",
+        "types": [
+            "Poison",
+            "Fairy"
+        ],
+        "previous_evolution": null,
+        "next_evolution": null
+    },
+    {
+        "name": "Rhyhorn",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/rhyhorn.png",
+        "types": [
+            "Ground",
+            "Rock"
+        ],
+        "previous_evolution": null,
+        "next_evolution": "Rhydon"
+    },
+    {
+        "name": "Rhydon",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/rhydon.png",
+        "types": [
+            "Ground",
+            "Rock"
+        ],
+        "previous_evolution": "Rhyhorn",
+        "next_evolution": "Rhyperior"
+    },
+    {
+        "name": "Rhyperior",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/rhyperior.png",
+        "types": [
+            "Ground",
+            "Rock"
+        ],
+        "previous_evolution": "Rhydon",
+        "next_evolution": null
+    },
+    {
+        "name": "Happiny",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/happiny.png",
+        "types": [
+            "Normal"
+        ],
+        "previous_evolution": null,
+        "next_evolution": "Chansey"
+    },
+    {
+        "name": "Chansey",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/chansey.png",
+        "types": [
+            "Normal"
+        ],
+        "previous_evolution": "Happiny",
+        "next_evolution": "Blissey"
+    },
+    {
+        "name": "Blissey",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/blissey.png",
+        "types": [
+            "Normal"
+        ],
+        "previous_evolution": "Chansey",
+        "next_evolution": null
+    },
+    {
+        "name": "Tangela",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/tangela.png",
+        "types": [
+            "Grass"
+        ],
+        "previous_evolution": null,
+        "next_evolution": "Tangrowth"
+    },
+    {
+        "name": "Tangrowth",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/tangrowth.png",
+        "types": [
+            "Grass"
+        ],
+        "previous_evolution": "Tangela",
+        "next_evolution": null
+    },
+    {
+        "name": "Horsea",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/horsea.png",
+        "types": [
+            "Water"
+        ],
+        "previous_evolution": null,
+        "next_evolution": "Seadra"
+    },
+    {
+        "name": "Seadra",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/seadra.png",
+        "types": [
+            "Water"
+        ],
+        "previous_evolution": "Horsea",
+        "next_evolution": "Kingdra"
+    },
+    {
+        "name": "Kingdra",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/kingdra.png",
+        "types": [
+            "Water",
+            "Dragon"
+        ],
+        "previous_evolution": "Seadra",
+        "next_evolution": null
+    },
+    {
+        "name": "Goldeen",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/goldeen.png",
+        "types": [
+            "Water"
+        ],
+        "previous_evolution": null,
+        "next_evolution": "Seaking"
+    },
+    {
+        "name": "Seaking",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/seaking.png",
+        "types": [
+            "Water"
+        ],
+        "previous_evolution": "Goldeen",
+        "next_evolution": null
+    },
+    {
+        "name": "Staryu",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/staryu.png",
+        "types": [
+            "Water"
+        ],
+        "previous_evolution": null,
+        "next_evolution": "Starmie"
+    },
+    {
+        "name": "Starmie",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/starmie.png",
+        "types": [
+            "Water",
+            "Psychic"
+        ],
+        "previous_evolution": "Staryu",
+        "next_evolution": null
+    },
+    {
+        "name": "Mime Jr.",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/mime-jr.png",
+        "types": [
+            "Psychic",
+            "Fairy"
+        ],
+        "previous_evolution": null,
+        "next_evolution": "Mr. Mime"
+    },
+    {
+        "name": "Mr. Mime",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/mr-mime.png",
+        "types": [
+            "Psychic",
+            "Fairy"
+        ],
+        "previous_evolution": "Mime Jr.",
+        "next_evolution": "Mr. Mime"
+    },
+    {
+        "name": "Mr. Mime",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/mr-mime-galarian.png",
+        "types": [
+            "Ice",
+            "Psychic"
+        ],
+        "previous_evolution": "Mr. Mime",
+        "next_evolution": "Mr. Rime"
+    },
+    {
+        "name": "Mr. Rime",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/mr-rime.png",
+        "types": [
+            "Ice",
+            "Psychic"
+        ],
+        "previous_evolution": "Mr. Mime",
+        "next_evolution": null
+    },
+    {
+        "name": "Mr. Mime",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/mr-mime.png",
+        "types": [
+            "Psychic",
+            "Fairy"
+        ],
+        "previous_evolution": null,
+        "next_evolution": null
+    },
+    {
+        "name": "Mr. Mime",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/mr-mime-galarian.png",
+        "types": [
+            "Ice",
+            "Psychic"
+        ],
+        "previous_evolution": null,
+        "next_evolution": "Mr. Rime"
+    },
+    {
+        "name": "Mr. Rime",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/mr-rime.png",
+        "types": [
+            "Ice",
+            "Psychic"
+        ],
+        "previous_evolution": "Mr. Mime",
+        "next_evolution": null
+    },
+    {
+        "name": "Scyther",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/scyther.png",
+        "types": [
+            "Bug",
+            "Flying"
+        ],
+        "previous_evolution": null,
+        "next_evolution": "Scizor"
+    },
+    {
+        "name": "Scizor",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/scizor.png",
+        "types": [
+            "Bug",
+            "Steel"
+        ],
+        "previous_evolution": "Scyther",
+        "next_evolution": "Kleavor"
+    },
+    {
+        "name": "Kleavor",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/kleavor.png",
+        "types": [
+            "Bug",
+            "Rock"
+        ],
+        "previous_evolution": "Scizor",
+        "next_evolution": null
+    },
+    {
+        "name": "Scizor",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/scizor.png",
+        "types": [
+            "Bug",
+            "Steel"
+        ],
+        "previous_evolution": null,
+        "next_evolution": null
+    },
+    {
+        "name": "Kleavor",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/kleavor.png",
+        "types": [
+            "Bug",
+            "Rock"
+        ],
+        "previous_evolution": null,
+        "next_evolution": null
+    },
+    {
+        "name": "Smoochum",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/smoochum.png",
+        "types": [
+            "Ice",
+            "Psychic"
+        ],
+        "previous_evolution": null,
+        "next_evolution": "Jynx"
+    },
+    {
+        "name": "Jynx",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/jynx.png",
+        "types": [
+            "Ice",
+            "Psychic"
+        ],
+        "previous_evolution": "Smoochum",
+        "next_evolution": null
+    },
+    {
+        "name": "Elekid",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/elekid.png",
+        "types": [
+            "Electric"
+        ],
+        "previous_evolution": null,
+        "next_evolution": "Electabuzz"
+    },
+    {
+        "name": "Electabuzz",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/electabuzz.png",
+        "types": [
+            "Electric"
+        ],
+        "previous_evolution": "Elekid",
+        "next_evolution": "Electivire"
+    },
+    {
+        "name": "Electivire",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/electivire.png",
+        "types": [
+            "Electric"
+        ],
+        "previous_evolution": "Electabuzz",
+        "next_evolution": null
+    },
+    {
+        "name": "Magby",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/magby.png",
+        "types": [
+            "Fire"
+        ],
+        "previous_evolution": null,
+        "next_evolution": "Magmar"
+    },
+    {
+        "name": "Magmar",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/magmar.png",
+        "types": [
+            "Fire"
+        ],
+        "previous_evolution": "Magby",
+        "next_evolution": "Magmortar"
+    },
+    {
+        "name": "Magmortar",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/magmortar.png",
+        "types": [
+            "Fire"
+        ],
+        "previous_evolution": "Magmar",
+        "next_evolution": null
+    },
+    {
+        "name": "Magikarp",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/magikarp.png",
+        "types": [
+            "Water"
+        ],
+        "previous_evolution": null,
+        "next_evolution": "Gyarados"
+    },
+    {
+        "name": "Gyarados",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/gyarados.png",
+        "types": [
+            "Water",
+            "Flying"
+        ],
+        "previous_evolution": "Magikarp",
+        "next_evolution": null
+    },
+    {
+        "name": "Eevee",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/eevee.png",
+        "types": [
+            "Normal"
+        ],
+        "previous_evolution": null,
+        "next_evolution": "Vaporeon"
+    },
+    {
+        "name": "Vaporeon",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/vaporeon.png",
+        "types": [
+            "Water"
+        ],
+        "previous_evolution": "Eevee",
+        "next_evolution": "Jolteon"
+    },
+    {
+        "name": "Jolteon",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/jolteon.png",
+        "types": [
+            "Electric"
+        ],
+        "previous_evolution": "Vaporeon",
+        "next_evolution": "Flareon"
+    },
+    {
+        "name": "Flareon",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/flareon.png",
+        "types": [
+            "Fire"
+        ],
+        "previous_evolution": "Jolteon",
+        "next_evolution": null
+    },
+    {
+        "name": "Vaporeon",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/vaporeon.png",
+        "types": [
+            "Water"
+        ],
+        "previous_evolution": null,
+        "next_evolution": null
+    },
+    {
+        "name": "Jolteon",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/jolteon.png",
+        "types": [
+            "Electric"
+        ],
+        "previous_evolution": null,
+        "next_evolution": null
+    },
+    {
+        "name": "Flareon",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/flareon.png",
+        "types": [
+            "Fire"
+        ],
+        "previous_evolution": null,
+        "next_evolution": null
+    },
+    {
+        "name": "Eevee",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/eevee.png",
+        "types": [
+            "Normal"
+        ],
+        "previous_evolution": null,
+        "next_evolution": "Espeon"
+    },
+    {
+        "name": "Espeon",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/espeon.png",
+        "types": [
+            "Psychic"
+        ],
+        "previous_evolution": "Eevee",
+        "next_evolution": "Umbreon"
+    },
+    {
+        "name": "Umbreon",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/umbreon.png",
+        "types": [
+            "Dark"
+        ],
+        "previous_evolution": "Espeon",
+        "next_evolution": null
+    },
+    {
+        "name": "Espeon",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/espeon.png",
+        "types": [
+            "Psychic"
+        ],
+        "previous_evolution": null,
+        "next_evolution": null
+    },
+    {
+        "name": "Umbreon",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/umbreon.png",
+        "types": [
+            "Dark"
+        ],
+        "previous_evolution": null,
+        "next_evolution": null
+    },
+    {
+        "name": "Eevee",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/eevee.png",
+        "types": [
+            "Normal"
+        ],
+        "previous_evolution": null,
+        "next_evolution": "Leafeon"
+    },
+    {
+        "name": "Leafeon",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/leafeon.png",
+        "types": [
+            "Grass"
+        ],
+        "previous_evolution": "Eevee",
+        "next_evolution": "Glaceon"
+    },
+    {
+        "name": "Glaceon",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/glaceon.png",
+        "types": [
+            "Ice"
+        ],
+        "previous_evolution": "Leafeon",
+        "next_evolution": null
+    },
+    {
+        "name": "Leafeon",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/leafeon.png",
+        "types": [
+            "Grass"
+        ],
+        "previous_evolution": null,
+        "next_evolution": null
+    },
+    {
+        "name": "Glaceon",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/glaceon.png",
+        "types": [
+            "Ice"
+        ],
+        "previous_evolution": null,
+        "next_evolution": null
+    },
+    {
+        "name": "Eevee",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/eevee.png",
+        "types": [
+            "Normal"
+        ],
+        "previous_evolution": null,
+        "next_evolution": "Sylveon"
+    },
+    {
+        "name": "Sylveon",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/sylveon.png",
+        "types": [
+            "Fairy"
+        ],
+        "previous_evolution": "Eevee",
+        "next_evolution": null
+    },
+    {
+        "name": "Porygon",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/porygon.png",
+        "types": [
+            "Normal"
+        ],
+        "previous_evolution": null,
+        "next_evolution": "Porygon2"
+    },
+    {
+        "name": "Porygon2",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/porygon2.png",
+        "types": [
+            "Normal"
+        ],
+        "previous_evolution": "Porygon",
+        "next_evolution": "Porygon-Z"
+    },
+    {
+        "name": "Porygon-Z",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/porygon-z.png",
+        "types": [
+            "Normal"
+        ],
+        "previous_evolution": "Porygon2",
+        "next_evolution": null
+    },
+    {
+        "name": "Omanyte",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/omanyte.png",
+        "types": [
+            "Rock",
+            "Water"
+        ],
+        "previous_evolution": null,
+        "next_evolution": "Omastar"
+    },
+    {
+        "name": "Omastar",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/omastar.png",
+        "types": [
+            "Rock",
+            "Water"
+        ],
+        "previous_evolution": "Omanyte",
+        "next_evolution": null
+    },
+    {
+        "name": "Kabuto",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/kabuto.png",
+        "types": [
+            "Rock",
+            "Water"
+        ],
+        "previous_evolution": null,
+        "next_evolution": "Kabutops"
+    },
+    {
+        "name": "Kabutops",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/kabutops.png",
+        "types": [
+            "Rock",
+            "Water"
+        ],
+        "previous_evolution": "Kabuto",
+        "next_evolution": null
+    },
+    {
+        "name": "Munchlax",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/munchlax.png",
+        "types": [
+            "Normal"
+        ],
+        "previous_evolution": null,
+        "next_evolution": "Snorlax"
+    },
+    {
+        "name": "Snorlax",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/snorlax.png",
+        "types": [
+            "Normal"
+        ],
+        "previous_evolution": "Munchlax",
+        "next_evolution": null
+    },
+    {
+        "name": "Dratini",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/dratini.png",
+        "types": [
+            "Dragon"
+        ],
+        "previous_evolution": null,
+        "next_evolution": "Dragonair"
+    },
+    {
+        "name": "Dragonair",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/dragonair.png",
+        "types": [
+            "Dragon"
+        ],
+        "previous_evolution": "Dratini",
+        "next_evolution": "Dragonite"
+    },
+    {
+        "name": "Dragonite",
+        "image_url": "https://img.pokemondb.net/sprites/emerald/normal/dragonite.png",
+        "types": [
+            "Dragon",
+            "Flying"
+        ],
+        "previous_evolution": "Dragonair",
+        "next_evolution": null
+    }
+]
