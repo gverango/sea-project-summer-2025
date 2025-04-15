@@ -71,7 +71,6 @@ window.onload = async function() {
 };
 
 let drawnCards = [];
-let savedCards = [];
 let selectedCardIndex=null;
 let pullHistory = [];
 
@@ -88,13 +87,6 @@ function renderCards() {
       cardDiv.classList.add("selected");
     }
 
-    // Only show name and types if revealed
-    const nameHTML = card.isRevealed ? `<h3">${card.name}</h3>` : "";
-    const typesHTML = card.isRevealed
-      ? `<div class="types">
-           ${card.types.map(type => `<span class="type-tag">${type}</span>`).join("")}
-         </div>`
-      : "";
       cardDiv.innerHTML = `
       <div class="card-inner">
         <div class="card-face card-back">
@@ -128,7 +120,7 @@ function renderCards() {
 
 function drawCard() {
   console.log("Draw card called");
-  console.log("Available cards:", allCards);
+/*  console.log("Available cards:", allCards); */
   if (drawnCards.length >= 6) {
     alert("Max 6 cards at once. Remove one to draw again.");
     return;
@@ -147,14 +139,6 @@ function drawCard() {
     renderCards();
   }
 }
-
-/*On click event*/
-cardDiv.onclick = () => {
-  selectedCardIndex = index;
-  card.isRevealed = !card.isRevealed; // toggle reveal state
-  renderCards(); // re-render
-};
-
 
 /* bottom-buttons*/
 function removeLastCard() {
@@ -199,10 +183,10 @@ function displayPulls() {
   drawnCards = [];
   selectedCardIndex = null;
 
-  // Hide the main controls (Draw/Remove) if you want:
+  // Hide footer
   document.querySelector(".footer").style.display = "none";
 
-  // Show the pulls menu
+  // Show pulls menu
   document.getElementById("pulls-menu").style.display = "block";
 
   const sortOption = document.getElementById("pulls-sort").value;
@@ -212,7 +196,7 @@ function displayPulls() {
   // Filter only revealed cards
   const revealedCards = pullHistory.filter(card => card.isRevealed);
   
-
+// if User selects "Sort by Type"
   if (sortOption === "type") {
     typeView.innerHTML = "";
     chainView.style.display = "none";
@@ -242,19 +226,15 @@ function displayPulls() {
       typeView.appendChild(section);
     }
 
+  // if User selects "Sort by Chain"
   } else if (sortOption === "chain") {
     chainView.innerHTML = "";
     typeView.style.display = "none";
     chainView.style.display = "block";
   
     const chainsMap = {};
-    const standalone = [];
   
     revealedCards.forEach(card => {
-      if (!card.previous_evolution && !card.next_evolution) {
-        standalone.push(card);
-        return;
-      }
   
       // Find the root of the chain from allCards
       let root = allCards.find(p => p.name === card.name);
