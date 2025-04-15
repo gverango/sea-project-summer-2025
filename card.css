@@ -1,3 +1,5 @@
+/* ChatGPT generated */
+
 /* Outer card container */
 .card-content {
     position: relative;
@@ -29,6 +31,9 @@
   .card-front {
     transform: rotateY(180deg);
     /* (Optional: style the front, e.g., background, text styles) */
+    background-color:lightblue;
+    border: 10px solid rgb(25, 38, 83);
+    border-radius:10px;
   }
   
   /* Back face (shows initially) */

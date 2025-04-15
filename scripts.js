@@ -1,3 +1,17 @@
+/**
+ * 
+ * - Data Structure:	Tracks drawn card history, adding/removing entries, card filtering, sorting/grouping
+ * vs.
+ * - Display (DOM):	Creates/manipulates DOM elements, sets innerHTML, handles everything visual layout
+ * 
+ * Data Structure Logic found in
+ *    drawCard()
+ *    renderCards()
+ *    removeLastCard()
+ *    displayPulls()
+ * 
+ */
+
 window.onload = async function() {
   const response = await fetch('pokemon_evolution_data.json');
   const data = await response.json();
@@ -35,7 +49,6 @@ function renderCards() {
         </div>
       </div>
     `;
-  // Add this after setting cardDiv.innerHTML:
   if (card.isRevealed) {
     cardDiv.classList.add("revealed");
   }  
@@ -59,18 +72,17 @@ function drawCard() {
     alert("Max 6 cards at once. Remove one to draw again.");
     return;
   }
-
   const available = allCards.filter(card => !drawnCards.includes(card));
-  const randomCard = available[Math.floor(Math.random() * available.length)];
-
+  const randomCard = available[Math.floor(Math.random() * available.length)]; // Gacha is just math.random() 
   
   if (randomCard) {
-    randomCard.isRevealed = false; 
-    drawnCards.push(randomCard);
+    randomCard.isRevealed = false; // initially hidden when rendered
+    drawnCards.push(randomCard); // updates current cards being viewed
+
   if (!pullHistory.includes(randomCard)) { // no duplicates
     pullHistory.push(randomCard); // adds to history
   }
-    renderCards();
+    renderCards(); // Updates View
   }
 }
 
@@ -81,12 +93,12 @@ function removeLastCard() {
     return;
   }
 
-  drawnCards.pop();           // remove the last card in the array
-  selectedCardIndex = null;   // reset selection
+  drawnCards.pop();           // removes last card in the array
+  selectedCardIndex = null;   // resets selection
   renderCards();              // update UI
 }
 
-// helper function
+// helper function - displayPulls()
 function renderCardHTML(card) {
   return `
     <div class="card">
@@ -101,7 +113,7 @@ function renderCardHTML(card) {
   `;
 }
 
-//helper function
+//helper function - displayPulls()
 function renderEmptyCardSlot(name) {
   return `
     <div class="card empty">
@@ -112,7 +124,7 @@ function renderEmptyCardSlot(name) {
 
 
 function displayPulls() {
-  // Clear active view
+  // Clears card-container
   document.getElementById("card-container").innerHTML = "";
   drawnCards = [];
   selectedCardIndex = null;
@@ -132,51 +144,58 @@ function displayPulls() {
   
 // if User selects "Sort by Type"
   if (sortOption === "type") {
+    // Hides Pulls Sorted by Chain View
     typeView.innerHTML = "";
     chainView.style.display = "none";
     typeView.style.display = "block";
 
-    const typeGroups = {};
+    const typeGroups = {}; // Dictionary for types. typeGroups {"Fire": [Charizard, Arcanine], "Water": [Squirtle, Poliwag]}
 
     revealedCards.forEach(card => {
       card.types.forEach(type => {
-        if (!typeGroups[type]) typeGroups[type] = [];
-        typeGroups[type].push(card);
+        if (!typeGroups[type]) typeGroups[type] = []; // if type hasn't been seen before, Initialize empty array
+        typeGroups[type].push(card); // Pushes card into respect type array
       });
     });
-
+//Loops through type group for rendering
     for (const type in typeGroups) {
-      const group = typeGroups[type];
+      const group = typeGroups[type]; //Array from typeGrups
+
       const section = document.createElement("div");
       section.innerHTML = `<h3>${type}</h3>`;
+
       const row = document.createElement("div");
       row.className = "card-row";
 
+      // Calls helper function to render all cards belonging to type
       group.forEach(card => {
         row.innerHTML += renderCardHTML(card);
       });
 
-      section.appendChild(row);
-      typeView.appendChild(section);
+      section.appendChild(row); // Cards are added as a render row
+      typeView.appendChild(section); // adds to type container
     }
 
   // if User selects "Sort by Chain"
   } else if (sortOption === "chain") {
+    // Hides Pulls Sorted by Type View
     chainView.innerHTML = "";
     typeView.style.display = "none";
     chainView.style.display = "block";
   
-    const chainsMap = {};
+    const chainsMap = {}; // Object= Maps root pokemon name to a Set inside chainMap: { "Bulbasaur" : Set("Bulbasaur", "Ivysaur")}
   
     revealedCards.forEach(card => {
   
-      // Find the root of the chain from allCards
+      // Finds the root of the chain from allCards
       let root = allCards.find(p => p.name === card.name);
-      while (root && root.previous_evolution) {
+      while (root && root.previous_evolution) { //Starts at current card and moves backward in evolution
         root = allCards.find(p => p.name === root.previous_evolution) || root;
       }
-  
-      if (!chainsMap[root.name]) chainsMap[root.name] = new Set();
+  // a Set exists for this root in chainsMap ? 
+      if (!chainsMap[root.name]) 
+        chainsMap[root.name] = new Set();
+      // Card's name is a added to a root's set 
       chainsMap[root.name].add(card.name);
     });
   
@@ -184,32 +203,36 @@ function displayPulls() {
       const revealedNames = chainsMap[chainRoot];
       const fullChain = [];
       let curr = allCards.find(p => p.name === chainRoot);
-      const visited = new Set();
+      const visited = new Set(); // To check if entire chain is complete or if evolutions misisng
   
       while (curr && !visited.has(curr.name)) {
         fullChain.push(curr);
         visited.add(curr.name);
-        curr = allCards.find(p => p.previous_evolution === curr.name);
+        curr = allCards.find(p => p.previous_evolution === curr.name); //Find next evolution (indicates, curr is previous evolution)
       }
   
       const row = document.createElement("div");
       row.className = "card-row";
-  
+
       const label = document.createElement("h3");
+      // Check if all elements of chain are in revealedNames
       const isComplete = fullChain.every(card => revealedNames.has(card.name));
       label.textContent = `${chainRoot} Evolution ${isComplete ? "" : " (Incomplete)"}`;
-      chainView.appendChild(label);
+      
+      chainView.appendChild(label); // Label is added (will sit above rendered row of cards)
   
+      // Render each card in the chain
       fullChain.forEach(card => {
         if (revealedNames.has(card.name)) {
+          // if card is Revealed, render
           const revealedCard = revealedCards.find(c => c.name === card.name);
           row.innerHTML += renderCardHTML(revealedCard);
-        } else {
+        } else { // otherwise, rendered as a placeholder
           row.innerHTML += renderEmptyCardSlot(card.name);
         }
       });
   
-      chainView.appendChild(row);
+      chainView.appendChild(row);  // Cards are added as a render row
     }
   }
 }
