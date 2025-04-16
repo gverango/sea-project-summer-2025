@@ -25,15 +25,18 @@
     left: 0;
     backface-visibility: hidden;           /* hide face when not facing viewer */
     -webkit-backface-visibility: hidden;   /* Safari/old Chrome support */
+
+  }
+  .card-face h3 {
+    font-size: 1.5rem;
+    color:white;
+    background-color: black;
+    box-shadow: 10px 5px white;
   }
   
   /* Front face (initially hidden by being flipped 180deg) */
   .card-front {
     transform: rotateY(180deg);
-    /* (Optional: style the front, e.g., background, text styles) */
-    background-color: rgb(203, 203, 203);
-    border: 10px solid rgb(25, 38, 83);
-    border-radius:10px;
   }
   
   /* Back face (shows initially) */
@@ -47,3 +50,31 @@
     transform: rotateY(180deg);
   }
   
+/* Base card front styling */
+.card-front {
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  border: 10px solid rgb(25, 38, 83);
+  z-index: 10;
+}
+
+/* Type-specific backgrounds */
+.card-normal .card-front    { background-image: url("assets/backgrounds/normal.png"); }
+.card-fire .card-front      { background-image: url("assets/backgrounds/fire.png"); }
+.card-water .card-front     { background-image: url("assets/backgrounds/water.png"); }
+.card-electric .card-front  { background-image: url("assets/backgrounds/electric.png"); }
+.card-grass .card-front     { background-image: url("assets/backgrounds/grass.png"); }
+.card-ice .card-front       { background-image: url("assets/backgrounds/ice.png"); }
+.card-fighting .card-front  { background-image: url("assets/backgrounds/fighting.png"); }
+.card-poison .card-front    { background-image: url("assets/backgrounds/poison.png"); }
+.card-ground .card-front    { background-image: url("assets/backgrounds/ground.png"); }
+.card-flying .card-front    { background-image: url("assets/backgrounds/flying.png"); }
+.card-psychic .card-front   { background-image: url("assets/backgrounds/psychic.png"); }
+.card-bug .card-front       { background-image: url("assets/backgrounds/bug.png"); }
+.card-rock .card-front      { background-image: url("assets/backgrounds/rock.png"); }
+.card-ghost .card-front     { background-image: url("assets/backgrounds/ghost.png"); }
+.card-dragon .card-front    { background-image: url("assets/backgrounds/dragon.png"); }
+.card-dark .card-front      { background-image: url("assets/backgrounds/dark.png"); }
+.card-steel .card-front     { background-image: url("assets/backgrounds/steel.png"); }
+.card-fairy .card-front     { background-image: url("assets/backgrounds/fairy.png"); }

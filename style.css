@@ -70,10 +70,6 @@ body {
   transition: /*transform 0.2s ease,*/ box-shadow 0.2s ease;
 }
 
-.card:hover {
-  transform: scale(1.01);
-  box-shadow: 0 0 30px 5px rgb(255, 255, 255);
-}
 
 .card img {
   display: block;

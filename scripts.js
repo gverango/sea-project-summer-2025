@@ -34,8 +34,9 @@ function renderCards() {
     if (index === selectedCardIndex) {
       cardDiv.classList.add("selected");
     }
-
+    const firstType = card.types[0].toLowerCase(); // e.g., "fire", "water"
       cardDiv.innerHTML = `
+      <div class="card-content card-${firstType}"> 
       <div class="card-inner">
         <div class="card-face card-back">
           <img src="assets/pokemon_cover_art.png" alt="Card Back" />
