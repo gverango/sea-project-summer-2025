@@ -29,3 +29,22 @@ script.js: [https://github.com/gverango/sea-project-summer-2025/blob/main/script
 ```
 ## Online Resources
 
+Tools: VSCode, Live-Server Plugin, Aseprite, Red Ketchup Color Picker
+
+Data: https://pokemondb.net/evolution, https://pokemondb.net/sprites
+
+Font: https://www.1001fonts.com/medodica-font.html by Posto Carattere
+
+Logo Art: https://pokemon-fonts-generator.netlify.app/ by phoneticallySAARTHaK
+
+Card Cover Art: https://www.deviantart.com/atomicmonkeytcg/art/Pokemon-Card-Backside-in-High-Resolution-633406210 by AtomicMonkeyTCG
+
+CSS GPT (GPT-4): https://www.scriptbyai.com/
+
+Tutorial: https://www.geeksforgeeks.org/singly-linked-list-tutorial/5
+
+Tutorial: https://www.w3schools.com/js/js_sets.asp
+
+## Total Hours
+
+# 12+ hours
