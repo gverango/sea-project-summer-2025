@@ -39,6 +39,8 @@ Logo Art: https://pokemon-fonts-generator.netlify.app/ by phoneticallySAARTHaK
 
 Card Cover Art: https://www.deviantart.com/atomicmonkeytcg/art/Pokemon-Card-Backside-in-High-Resolution-633406210 by AtomicMonkeyTCG
 
+Background Art by Me
+
 CSS GPT (GPT-4): https://www.scriptbyai.com/
 
 Tutorial: https://www.geeksforgeeks.org/singly-linked-list-tutorial/5
