@@ -28,12 +28,13 @@ script.js: [https://github.com/gverango/sea-project-summer-2025/blob/main/script
 ├─ script.js
 ```
 ## Online Resources
-
 Tools: VSCode, Live-Server Plugin, Aseprite, Red Ketchup Color Picker
 
 Data: https://pokemondb.net/evolution, https://pokemondb.net/sprites
 
 Font: https://www.1001fonts.com/medodica-font.html by Posto Carattere
+
+Favicon Art: https://static.wikia.nocookie.net/pokemon-fano/images/6/6f/Poke_Ball.png/revision/latest/scale-to-width-down/767?cb=20140520015336
 
 Logo Art: https://pokemon-fonts-generator.netlify.app/ by phoneticallySAARTHaK
 
@@ -49,4 +50,8 @@ Tutorial: https://www.w3schools.com/js/js_sets.asp
 
 ## Total Hours
 
-# 12+ hours
+# 15+ hours
+
+One of the most challenging aspects of this project was organizing the Pokémon into their evolution chains, it resembled a DSA- Leetcode level problem and I already had three days left for this project. Especially when trying to trace the evolution path of each Pokémon. I had to iterate through each card, figure out its root, and see that I was correctly mapping its evolution history, all while preventing any loops or missing links. 
+
+I had many variables made for tracking which nodes (or Pokémon) I’d already visited to avoid redundant processing. I also manually cleaned up the dataset so rendered cards looked nice. If I had more time, I’d refine the logic to accommodate multiple evolution branches, in the case future Pokémon with more complex evolution patterns were introduced.
